@@ -1,0 +1,181 @@
+/* My Custom Stylesheet */
+
+
+nav ul a,
+nav .brand-logo {
+  color: #3DFFD9;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #3DFFD9;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+  
+}
+.icon-block .material-icons {
+  font-size: inherit;  
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#particles {
+  position: absolute;
+  width: 100%;
+  height:auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  
+}
+
+
+#particles1 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+#nav-height {
+  height: 4.7rem;
+  background: #232526;
+  /* fallback for old browsers */
+
+  background: -webkit-linear-gradient(to left, #414345, #232526);
+  /* Chrome 10-25, Safari 5.1-6 */
+
+  background: linear-gradient(to left, #414345, #232526);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+box-shadow: none !important;
+-webkit-box-shadow:none !important; 
+
+  
+}
+
+#index-banner{
+  height: 380px;
+  background: #232526;
+  /* fallback for old browsers */
+
+  background: -webkit-linear-gradient(to left, #414345, #232526);
+  /* Chrome 10-25, Safari 5.1-6 */
+
+  background: linear-gradient(to left, #414345, #232526);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav-mobile {
+  z-index: 10 !important;
+}
+
+
+#particles-banner {
+   height: 380px;
+   background: #232526;
+   /* fallback for old browsers */
+
+   background: -webkit-linear-gradient(to left, #414345, #232526);
+   /* Chrome 10-25, Safari 5.1-6 */
+
+   background: linear-gradient(to left, #414345, #232526);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.centered {
+  display: inline;
+  padding: .2em;
+    
+}
+
+
+#contact {
+  background: #232526;
+  /* fallback for old browsers */
+
+  background: -webkit-linear-gradient(to left, #414345, #232526);
+  /* Chrome 10-25, Safari 5.1-6 */
+
+  background: linear-gradient(to left, #414345, #232526);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.header {
+  color: #3DFFD9;
+ }
+
+h6 {
+  padding: 0;
+  margin-top: -20px !important;
+}
+
+#skillsText, #portText {
+  color: #3DFFD9;
+  text-shadow: 2px 2px #f70055;
+  
+  
+}
+
+.white-text {
+  color: #3DFFD9 !important;
+}
+
+
+#copy {
+  color: #3DFFD9;
+}
+
+
+#skills, #portfolio {
+  background: rgba(169,169,169,0.5) !important;
+}
+
+.btn {
+  color: #3DFFD9 !important;
+  position: relative;
+  z-index: 10 !important;
+} 
+
+
