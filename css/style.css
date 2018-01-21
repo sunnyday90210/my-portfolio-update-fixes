@@ -1,5 +1,66 @@
 /* My Custom Stylesheet */
 
+/* Turn icons to text on hover */
+.home-icon::before {
+  font-family: "Material Icons";
+  content: "\e88A";
+  font-size: 30px;
+}
+
+.skills-icon::before {
+  font-family: "Material Icons";
+  content: "\e1B0";
+  font-size: 30px;
+}
+
+.portfolio-icon::before {
+  font-family: "Material Icons";
+  content: "\e0e0";
+  font-size: 30px;
+}
+
+.contact-icon::before {
+  font-family: "Material Icons";
+  content: "\e158";
+  font-size: 30px;
+}
+/* Icons end*/
+
+/* To display and hide the icons  */
+
+.home-icon:hover::before, .skills-icon:hover::before, .portfolio-icon:hover::before, .contact-icon:hover::before {
+  display: none !important;
+}
+
+.home-icon::after {
+  content: 'HOME';
+  display: none;
+}
+
+.skills-icon::after {
+  content: 'SKILLS';
+  display: none;
+}
+
+.portfolio-icon::after {
+  content: 'PORTFOLIO';
+  display: none;
+}
+
+.contact-icon::after {
+  content: 'CONTACT ME';
+  display: none;
+}
+
+.home-icon:hover::after, .skills-icon:hover::after, .portfolio-icon:hover::after, .contact-icon:hover::after {
+  display: block !important;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+}
+
+/* End of the icons */
 
 nav ul a,
 nav .brand-logo {
@@ -105,9 +166,9 @@ box-shadow: none !important;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.nav-mobile {
+/* .nav-mobile {
   z-index: 10 !important;
-}
+} */
 
 
 #particles-banner {
@@ -176,6 +237,4 @@ h6 {
   color: #3DFFD9 !important;
   position: relative;
   z-index: 10 !important;
-} 
-
-
+}

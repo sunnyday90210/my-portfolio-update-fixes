@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- <link rel="stylesheet" href="css/nav.css"> -->
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
@@ -25,10 +26,10 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="#index-banner" class="brand-logo"><i class="material-icons">code</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#index-banner"><i class="material-icons" title="Home">home</i></a></li>
-        <li><a href="#skills"><i class="material-icons" title="Skills">developer_mode</i></a></li>
-        <li><a href="#portfolio"><i class="material-icons" title="Portfolio">import_contacts</i></a></li>
-        <li><a href="#contact"><i class="material-icons" title="Contact Me">email</i></a></li>
+        <li><a href="#index-banner"><i class="material-icons home-icon"></i></a></li>
+        <li><a href="#skills"><i class="material-icons skills-icon"></i></a></li>
+        <li><a href="#portfolio"><i class="material-icons portfolio-icon"></i></a></li>
+        <li><a href="#contact"><i class="material-icons contact-icon"></i></a></li>
       </ul>
 
 <!-- End of Navbar -->
@@ -310,7 +311,7 @@
             <img class="activator" src="img/loan-index.png">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Javascript Loan Calculator
+            <span class="card-title activator grey-text text-darken-4">Loan Calculator
               <i class="material-icons right">more_vert</i>
             </span>
             <p>
@@ -444,10 +445,13 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-  <script src="js/particles.js"></script>  
+  <script src="js/particles.js"></script>
   <script>
-    $(".button-collapse").sideNav();
-    $('.modal').modal();
-  </script> 
+
+    $('.button-collapse').sideNav({
+      closeOnClick: true,
+      'edge': 'left'});
+    $('.collapsible').collapsible();
+  </script>
   </body>
 </html>

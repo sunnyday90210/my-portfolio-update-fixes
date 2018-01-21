@@ -27,7 +27,7 @@ function scrollToSection(self) {
   // get the target position
   // var targetPos = $(href).offset().top - navHeight + 5;
 
-  // scroll to target
+//   scroll to target
 //   $('html, body').animate({
 //     scrollTop: targetPos
 //   }, 400);
